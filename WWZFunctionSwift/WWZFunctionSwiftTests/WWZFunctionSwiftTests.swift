@@ -7,6 +7,7 @@
 //
 
 import XCTest
+
 @testable import WWZFunctionSwift
 
 class WWZFunctionSwiftTests: XCTestCase {
@@ -22,8 +23,42 @@ class WWZFunctionSwiftTests: XCTestCase {
     }
     
     func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        
+//        let numbers = [1,2,3,4,5].map { (number) -> String in
+//        
+//            return "\(number+3)"
+//        }
+//    
+//        print(numbers)
+//        
+//        let reduceArr = [1,2,3,4,5].reduce([String]()) { (result: [String], number: Int) -> [String] in
+//            
+//            var arr = result
+//            arr.append("\(number)")
+//            return arr
+//        }
+//        print(reduceArr)
+//        
+//        let filterArr = [1,2,3,4,5].filter { (index) -> Bool in
+//            
+//            return index > 3
+//        }
+//        
+//        print(filterArr)
+//        
+//        
+//        let str = String.arbitrary()
+//        
+//        print(str)
+        
+        
+        let contents = ["cat", "car", "cart", "dog"]
+        let trieOfWords = buildStringTrie(words: contents)
+        let str = autocompleteString(knownWords: trieOfWords, word: "car")
+        
+        print(str)
+        
+        
     }
     
     func testPerformanceExample() {

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		B023E5131E8CF7A400242F0C /* CoreImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B023E5121E8CF7A400242F0C /* CoreImage.swift */; };
 		B043ACC91E8D3481002130B9 /* MapFilterReduce.swift in Sources */ = {isa = PBXBuildFile; fileRef = B043ACC81E8D3481002130B9 /* MapFilterReduce.swift */; };
+		B0587B711E8DDF960021DB64 /* QuickCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0587B701E8DDF960021DB64 /* QuickCheck.swift */; };
 		B08A50391E8CECB300ADE997 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08A50381E8CECB300ADE997 /* AppDelegate.swift */; };
 		B08A503B1E8CECB300ADE997 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08A503A1E8CECB300ADE997 /* ViewController.swift */; };
 		B08A503E1E8CECB300ADE997 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B08A503C1E8CECB300ADE997 /* Main.storyboard */; };
@@ -16,6 +17,8 @@
 		B08A50431E8CECB300ADE997 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B08A50411E8CECB300ADE997 /* LaunchScreen.storyboard */; };
 		B08A504E1E8CECB300ADE997 /* WWZFunctionSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08A504D1E8CECB300ADE997 /* WWZFunctionSwiftTests.swift */; };
 		B08A50591E8CECD600ADE997 /* Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08A50581E8CECD600ADE997 /* Function.swift */; };
+		B0F5A1B11E8F281100D9DCCD /* PurelyFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F5A1B01E8F281100D9DCCD /* PurelyFunction.swift */; };
+		B0F5A1B31E8F3D4300D9DCCD /* DictionaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F5A1B21E8F3D4300D9DCCD /* DictionaryTree.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +34,7 @@
 /* Begin PBXFileReference section */
 		B023E5121E8CF7A400242F0C /* CoreImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreImage.swift; sourceTree = "<group>"; };
 		B043ACC81E8D3481002130B9 /* MapFilterReduce.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapFilterReduce.swift; sourceTree = "<group>"; };
+		B0587B701E8DDF960021DB64 /* QuickCheck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuickCheck.swift; sourceTree = "<group>"; };
 		B08A50351E8CECB200ADE997 /* WWZFunctionSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WWZFunctionSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B08A50381E8CECB300ADE997 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B08A503A1E8CECB300ADE997 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,6 +46,8 @@
 		B08A504D1E8CECB300ADE997 /* WWZFunctionSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWZFunctionSwiftTests.swift; sourceTree = "<group>"; };
 		B08A504F1E8CECB300ADE997 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B08A50581E8CECD600ADE997 /* Function.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Function.swift; sourceTree = "<group>"; };
+		B0F5A1B01E8F281100D9DCCD /* PurelyFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurelyFunction.swift; sourceTree = "<group>"; };
+		B0F5A1B21E8F3D4300D9DCCD /* DictionaryTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryTree.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +98,9 @@
 				B08A50581E8CECD600ADE997 /* Function.swift */,
 				B023E5121E8CF7A400242F0C /* CoreImage.swift */,
 				B043ACC81E8D3481002130B9 /* MapFilterReduce.swift */,
+				B0587B701E8DDF960021DB64 /* QuickCheck.swift */,
+				B0F5A1B01E8F281100D9DCCD /* PurelyFunction.swift */,
+				B0F5A1B21E8F3D4300D9DCCD /* DictionaryTree.swift */,
 			);
 			path = WWZFunctionSwift;
 			sourceTree = "<group>";
@@ -210,9 +219,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0587B711E8DDF960021DB64 /* QuickCheck.swift in Sources */,
 				B08A50591E8CECD600ADE997 /* Function.swift in Sources */,
 				B043ACC91E8D3481002130B9 /* MapFilterReduce.swift in Sources */,
+				B0F5A1B11E8F281100D9DCCD /* PurelyFunction.swift in Sources */,
 				B08A503B1E8CECB300ADE997 /* ViewController.swift in Sources */,
+				B0F5A1B31E8F3D4300D9DCCD /* DictionaryTree.swift in Sources */,
 				B023E5131E8CF7A400242F0C /* CoreImage.swift in Sources */,
 				B08A50391E8CECB300ADE997 /* AppDelegate.swift in Sources */,
 			);

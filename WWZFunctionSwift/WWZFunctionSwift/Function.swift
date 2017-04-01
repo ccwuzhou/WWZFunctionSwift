@@ -25,7 +25,6 @@ struct Position {
         
         return Position(x: x-p.x, y: y-p.y)
     }
-    
 }
 
 
